@@ -21,7 +21,7 @@ The web application requests the yearly savings value to an API built in [Ruby o
 
 2. Navigate to the repository root and run:
 
-	`$ docker-compose up`
+	`$ docker-compose up --build`
 
 Once the docker containers have finished loading open `http://localhost:3561` in your browser and you can start using the calculator.
 
