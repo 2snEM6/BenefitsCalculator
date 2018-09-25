@@ -6,24 +6,22 @@ calculate how much money you will save per year by using taking advanve of your 
 This model is based in the IRPF tax model of 2017 from Spain.
 
 ### Architecture
-
-The frontend application is build using React and tested using the Enzyme library by Airbnb
-The web application requests the yearly savings calculation to an API built in Ruby On Rails and tested using TestUnit
+The frontend application is build using React and tested using the [Enzyme](https://github.com/airbnb/enzyme) testing library by Airbnb.
+The web application requests the yearly savings value to an API built in [Ruby on Rails 5](https://rubyonrails.org) and tested using TestUnit.
 
 ### Prerequisites
-Docker
+
+ - Docker for Mac or Docker for Windows
 
 ### How to run it
 
-Clone the repository
+1. Clone the repository
 
-`$ git clone  `
+	`$ git clone  `
 
-Navigate to the repository root and run:
+2. Navigate to the repository root and run:
 
-`$ docker-compose up`
+	`$ docker-compose up`
 
-Once the docker containers have finished loading open `http://localhost:3561`'
-
-
+Once the docker containers have finished loading open `http://localhost:3561`' in your browser and you can start using the calculator.
 
