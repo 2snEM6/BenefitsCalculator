@@ -1,6 +1,10 @@
 FROM node:latest as build-deps
 WORKDIR /usr/src/frontend-app
+
+ENV PATH /usr/src/frontend-app/node_modules/.bin:$PATH
+
 COPY package*.json yarn.lock ./
+RUN npm install --g yarn
 RUN yarn
 COPY . ./
 RUN yarn build
