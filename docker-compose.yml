@@ -5,6 +5,8 @@ services:
     build: backend/benefits-api
     volumes:
       - ./backend/benefits-api:/usr/src/backend-app
+    ports:
+      - "3001:3001"
   frontend:
     build:
       context: ./frontend/
