@@ -1,0 +1,17 @@
+version: '2'
+
+services:
+  backend:
+    build: backend/benefits-api
+    volumes:
+      - ./backend/benefits-api:/usr/src/backend-app
+  frontend:
+    build:
+      context: ./frontend/
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend/:/usr/src/frontend-app
+      - ./frontend/node_modules:/usr/src/frontend-app/node_modules
+    ports:
+      - "3561:80"
