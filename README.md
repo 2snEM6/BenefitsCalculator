@@ -23,5 +23,5 @@ The web application requests the yearly savings value to an API built in [Ruby o
 
 	`$ docker-compose up`
 
-Once the docker containers have finished loading open `http://localhost:3561`' in your browser and you can start using the calculator.
+Once the docker containers have finished loading open `http://localhost:3561` in your browser and you can start using the calculator.
 
