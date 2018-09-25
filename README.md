@@ -17,7 +17,7 @@ The web application requests the yearly savings value to an API built in [Ruby o
 
 1. Clone the repository
 
-	`$ git clone  `
+	`$ git clone git@github.com:limiaspasdaniel/YearlyBenefitsCalculator.git`
 
 2. Navigate to the repository root and run:
 
