@@ -12,7 +12,12 @@ class App extends React.Component {
       <Provider store={store}>
         <div className="App">
           <BenefitsCalculator/>
-          <p className="Author">By Daniel Limia</p>
+          <a target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}
+             href="https://github.com/limiaspasdaniel"
+             className="Author"
+          >
+            By Daniel Limia
+          </a>
         </div>
       </Provider>
     );
