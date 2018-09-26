@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package irpf_package;
+
+service IRPF {
+
+    rpc calculateNetSalary (Input) returns (NetSalary) {}
+
+    rpc calculateYearlySavings (Input) returns (YearlySavings) {}
+
+}
+
+message Input {
+    int32 grossSalary = 1;
+    int32 monthlySpending = 2;
+}
+
+message YearlySavings {
+    int32 yearlySavings = 1;
+}
+
+message NetSalary {
+    int32 netSalary = 1;
+}
