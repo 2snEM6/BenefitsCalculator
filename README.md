@@ -13,7 +13,7 @@ This model is based in the IRPF tax model of 2017 from Spain.
 
 ### Architecture
 The frontend application is build using React and tested using the [Enzyme](https://github.com/airbnb/enzyme) testing library by Airbnb.
-The web application requests the yearly savings value to an API built in [Ruby on Rails 5](https://rubyonrails.org) and tested using TestUnit.
+The web application requests the yearly savings value to an scalable WebSockets API built with SocketCluster
 
 ### Prerequisites
 
