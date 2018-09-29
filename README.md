@@ -1,8 +1,8 @@
 # A yearly savings calculator for monthly expenses
 
-[![](https://images.microbadger.com/badges/version/limiaspasdaniel/yearlybenefits:frontend.latest.svg)](https://microbadger.com/images/limiaspasdaniel/yearlybenefits:frontend.latest "Download frontend image") Docker image for the frontend
-
-[![](https://images.microbadger.com/badges/version/limiaspasdaniel/yearlybenefits:backend.latest.svg)](https://microbadger.com/images/limiaspasdaniel/yearlybenefits:backend.latest "Download backend image") Docker image for the backend
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![](https://images.microbadger.com/badges/version/limiaspasdaniel/yearlybenefits:frontend.latest.svg)](https://microbadger.com/images/limiaspasdaniel/yearlybenefits:frontend.latest "Download frontend image")
+[![](https://images.microbadger.com/badges/version/limiaspasdaniel/yearlybenefits:backend.latest.svg)](https://microbadger.com/images/limiaspasdaniel/yearlybenefits:backend.latest "Download backend image")
 
 A simple and tested web application built in React that lets you
 calculate how much money you will save per year by using taking advanve of your company benefits in a monthly basis
