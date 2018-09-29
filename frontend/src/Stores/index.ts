@@ -1,11 +1,12 @@
-import { createStore, applyMiddleware } from 'redux';
-import reduxThunk from 'redux-thunk';
+import { createStore } from 'redux';
 import { benefitsReducer, State } from '../Reducers';
+import { initWebsocketActions } from '../Actions';
 
 const initialState: State = {
   yearlySavings: 0,
 };
 
-const store = createStore(benefitsReducer, initialState, applyMiddleware(reduxThunk));
+const store = createStore(benefitsReducer, initialState);
+initWebsocketActions(store);
 
 export { store };

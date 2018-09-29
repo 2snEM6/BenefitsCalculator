@@ -1,3 +1,4 @@
 import { calculateYearlyBenefits } from './BenefitsActions';
+import { initWebsocketActions, emit } from './WebsocketsActions';
 
-export { calculateYearlyBenefits };
+export { calculateYearlyBenefits,  initWebsocketActions, emit };

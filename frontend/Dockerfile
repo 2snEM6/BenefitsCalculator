@@ -1,3 +1,5 @@
+### STAGE 1 BUILD
+
 FROM node:latest as build-deps
 WORKDIR /usr/src/frontend-app
 
@@ -9,7 +11,7 @@ RUN yarn
 COPY . ./
 RUN yarn build
 
-# web server NGINX
+### STAGE 2 PRODUCTION ENVIRONMENT
 FROM nginx:1.12-alpine
 COPY --from=build-deps /usr/src/frontend-app/build /usr/share/nginx/html
 EXPOSE 80

@@ -2,8 +2,6 @@ import * as React from 'react';
 import { connect } from 'react-redux';
 import { State } from '../../Reducers';
 import { calculateYearlyBenefits } from '../../Actions/';
-import { ThunkDispatch } from 'redux-thunk';
-import { Action } from 'redux';
 const { Form, TextInput, Slider, FormGroup } = require('carbon-components-react/lib');
 
 export interface ICustomFormProps {
@@ -92,10 +90,10 @@ export class BenefitsFormView
 }
 
 export const mapDispatchToProps =
-  (dispatch: ThunkDispatch<State, void, Action>, ownProps: ICustomFormProps) => {
+  () => {
     return {
       calculateYearlyBenefit: (grossSalary: number, monthAllowance: number) => {
-        dispatch(calculateYearlyBenefits(grossSalary, monthAllowance));
+        calculateYearlyBenefits(grossSalary, monthAllowance);
       },
     };
   };
