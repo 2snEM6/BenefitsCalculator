@@ -1,5 +1,9 @@
 # A realtime yearly savings calculator for monthly expenses
 
+[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![](https://images.microbadger.com/badges/version/limiaspasdaniel/yearlybenefits:frontend.latest.svg)](https://microbadger.com/images/limiaspasdaniel/yearlybenefits:frontend.latest "Download frontend image")
+[![](https://images.microbadger.com/badges/version/limiaspasdaniel/yearlybenefits:backend.latest.svg)](https://microbadger.com/images/limiaspasdaniel/yearlybenefits:backend.latest "Download backend image")
+
 A simple and tested web application built in React that lets you
 calculate how much money you will save per year by using taking advanve of your company benefits in a monthly basis
 
@@ -9,7 +13,7 @@ This model is based in the IRPF tax model of 2017 from Spain.
 
 ### Architecture
 The frontend application is build using React and tested using the [Enzyme](https://github.com/airbnb/enzyme) testing library by Airbnb.
-The web application requests the yearly savings value over web sockets to a web sockets server built with SocketCluster.
+The web application requests the yearly savings value to an scalable WebSockets API built with SocketCluster
 
 ### Prerequisites
 
