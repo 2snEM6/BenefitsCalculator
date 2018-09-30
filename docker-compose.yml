@@ -6,7 +6,7 @@ services:
       context: ./backend/
     volumes:
       - ./backend/:/usr/src/backend-app
-      - ./frontend/node_modules:/usr/src/frontend-app/node_modules
+      - ./backend/node_modules:/usr/src/backend-app/node_modules
     ports:
       - "3001:3001"
   frontend:
