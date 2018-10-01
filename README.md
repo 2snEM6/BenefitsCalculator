@@ -1,4 +1,4 @@
-# A realtime yearly savings calculator for monthly expenses
+#  A realtime yearly savings calculator for monthly expenses 💵
 
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 [![](https://images.microbadger.com/badges/version/limiaspasdaniel/yearlybenefits:frontend.latest.svg)](https://microbadger.com/images/limiaspasdaniel/yearlybenefits:frontend.latest "Download frontend image")
