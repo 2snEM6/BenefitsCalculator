@@ -8,7 +8,7 @@
 
 
 
-### Now deployed to the IPFS network 🛰
+### Now deployed to the IPFS network!  [here](https://ipfs.infura.io/ipfs/QmVh1oi9fQs6KnhvbVSFoCpWmywdBzWAmGAcu3YzN89C8p/) 🛰
 Important note: please help this application to be alive by loading `http://localhost:8080/ipfs/QmVh1oi9fQs6KnhvbVSFoCpWmywdBzWAmGAcu3YzN89C8p` on your local node.
 
 
