@@ -24,6 +24,23 @@ This model is based in the IRPF tax model of 2017 from Spain.
 - The frontend application is build using React + Redux and tested using the [Enzyme](https://github.com/airbnb/enzyme) testing library by Airbnb.
 - The web application requests the yearly savings value to an scalable WebSockets API built with [SocketCluster](https://github.com/SocketCluster/socketcluster)
 
+### Deployment
+
+**Frontend**
+
+The frontend, the web application has been deployed to  IPFS, the [Interplanetary File System](ipfs.io) 🌎
+
+This means the website is not deployed to a simple single point of failure web server, but deployed to a decentralized structure of multiple nodes that host the data.
+
+If you'd like to support this app, feel free to deploy a node on your local machine and load the following hash: QmVh1oi9fQs6KnhvbVSFoCpWmywdBzWAmGAcu3YzN89C8p
+
+This will help the app to live forever in the network without any cost.
+
+**Backend**
+
+As for the backend application, it still needs to be deployed to a decentralized network such as Ethereum, EOS or many others.
+I'm im the process of doing it but it still will require some time.
+
 ### Prerequisites
 
  - Docker for Mac, Linux or Windows
