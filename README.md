@@ -26,7 +26,7 @@ This model is based in the IRPF tax model of 2017 from Spain.
 
 ### Prerequisites
 
- - Docker for Mac or Docker for Windows
+ - Docker for Mac, Linux or Windows
 
 ### How to run it
 
