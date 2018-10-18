@@ -28,7 +28,9 @@ This model is based in the IRPF tax model of 2017 from Spain.
 
 **Frontend**
 
-The frontend, the web application has been deployed to  IPFS, the [Interplanetary File System](ipfs.io) 🌎
+The frontend, the web application has been deployed to  IPFS, the [Interplanetary File System](https://ipfs.io) 🌎
+
+It can be accessed [here](https://ipfs.infura.io/ipfs/QmVh1oi9fQs6KnhvbVSFoCpWmywdBzWAmGAcu3YzN89C8p/)
 
 This means the website is not deployed to a simple single point of failure web server, but deployed to a decentralized structure of multiple nodes that host the data.
 
