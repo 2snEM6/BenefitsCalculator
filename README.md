@@ -14,7 +14,7 @@ Important note: please help this application to be alive by loading `http://loca
 
 
 A simple and tested web application built in React that lets you
-calculate how much money you will save per year by using taking advanve of your company benefits in a monthly basis
+calculate how much money you will save per year by using taking advantadge of your company benefits in a monthly basis
 
 This model is based in the IRPF tax model of 2017 from Spain.
 
