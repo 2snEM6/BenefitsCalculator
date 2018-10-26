@@ -78,10 +78,12 @@ export class BenefitsFormView
           />
         </FormGroup>
         <div>
-          <h3 style={{ display: 'inline' }}>You'll be saving per year </h3>
-          <b style={ { fontWeight: 'bold', fontSize: '1.25rem' } }>
-            {this.props.yearlySavings}€ {emoji}
-          </b>
+          <h3 style={{ display: 'inline' }}>
+            You'll be saving <b style={ { fontWeight: 'bold', fontSize: '1.25rem' } }>
+            {this.props.yearlySavings}€ </b>
+             per year {emoji}
+          </h3>
+
         </div>
       </Form>
     );

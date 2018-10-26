@@ -19,11 +19,8 @@ const calculateYearlyBenefits
           payload: ~~payload,
         },
       );
-      console.log('Reading from cache');
       return;
     }
-
-    console.log('Asking to server');
 
     emit('CALCULATE_YEARLY_SAVINGS', {
       gross_salary: grossSalary,
