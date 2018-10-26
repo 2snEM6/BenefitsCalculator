@@ -14,7 +14,10 @@ const receive = (store: Store) => {
   socket.on(WebsocketsEvents.RECEIVED.YEARLY_SAVINGS,
             (payload: WebsocketsEvents.RECEIVED.YEARLY_SAVINGS_PAYLOAD) => {
 
-              
+              localStorage.setItem(
+                `${payload.gross_salary};${payload.monthly_spending}`,
+                (~~payload.yearly_savings).toString(),
+              );
 
               return store.dispatch(
                 {

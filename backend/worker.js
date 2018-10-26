@@ -54,6 +54,8 @@ class Worker extends SCWorker {
         );
         socket.emit('YEARLY_SAVINGS', {
           yearly_savings: yearlySavings,
+          gross_salary: data.gross_salary,
+          monthly_spending: data.monthly_spending
         });
       });
     });

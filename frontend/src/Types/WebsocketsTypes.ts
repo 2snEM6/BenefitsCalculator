@@ -28,6 +28,8 @@ namespace Events {
     export const YEARLY_SAVINGS = 'YEARLY_SAVINGS';
     export type YEARLY_SAVINGS_PAYLOAD = {
       yearly_savings: number,
+      gross_salary: number,
+      monthly_spending: number,
     };
 
     export type ALL = NET_SALARY | YEARLY_SAVINGS;

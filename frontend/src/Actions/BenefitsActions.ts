@@ -4,28 +4,31 @@ import { Store } from 'redux';
 
 let store: Store;
 
-function initBenefitsActions(_store: Store) {
-  store = _store;
-};
+function initBenefitsActions(aStore: Store) {
+  store = aStore;
+}
 
 const calculateYearlyBenefits
   = (grossSalary: number, monthlySpending: number) => {
-    const payload = localStorage.getItem(`${grossSalary};${monthlySpending}`);
-    if (payload) {
+    const payload = Number(
+      localStorage.getItem(`${grossSalary};${monthlySpending}`) || '-1');
+    if (payload > -1) {
       store.dispatch(
         {
           type: BenefitsActionTypes.SET_YEARLY_BENEFIT,
-          payload: ~~payload
+          payload: ~~payload,
         },
       );
+      console.log('Reading from cache');
       return;
     }
-    
+
+    console.log('Asking to server');
+
     emit('CALCULATE_YEARLY_SAVINGS', {
       gross_salary: grossSalary,
       monthly_spending: monthlySpending,
     } as WebsocketsEvents.EMITTED.CALL_CALCULATE_YEARLY_SAVINGS_PAYLOAD);
   };
-
 
 export { calculateYearlyBenefits, initBenefitsActions };
