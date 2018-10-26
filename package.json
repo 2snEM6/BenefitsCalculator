@@ -1,0 +1,35 @@
+{
+  "name": "benefits-calculator",
+  "version": "1.0.0",
+  "description": "A yearly benefits calculator",
+  "scripts": {
+    "start:client": "cd frontend && npm start",
+    "build:client": "cd frontend && npm run build",
+    "start":  "npm run build:client && npm run start:client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limiaspasdaniel/BenefitsCalculator.git"
+  },
+  "keywords": [
+    "benefits",
+    "ipfs",
+    "dapp",
+    "calculator",
+    "ethereum",
+    "smart",
+    "contract",
+    "smart",
+    "react",
+    "node",
+    "javascript",
+    "express",
+    "websockets"
+  ],
+  "author": "Daniel Limia Aspas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/limiaspasdaniel/BenefitsCalculator/issues"
+  },
+  "homepage": "https://github.com/limiaspasdaniel/BenefitsCalculator#readme"
+}

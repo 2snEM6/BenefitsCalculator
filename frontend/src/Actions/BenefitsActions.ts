@@ -12,15 +12,16 @@ const calculateYearlyBenefits
   = (grossSalary: number, monthlySpending: number) => {
     const payload = localStorage.getItem(`${grossSalary};${monthlySpending}`);
     if (payload) {
-      return store.dispatch(
+      store.dispatch(
         {
           type: BenefitsActionTypes.SET_YEARLY_BENEFIT,
           payload: ~~payload
         },
       );
+      return;
     }
     
-    return emit('CALCULATE_YEARLY_SAVINGS', {
+    emit('CALCULATE_YEARLY_SAVINGS', {
       gross_salary: grossSalary,
       monthly_spending: monthlySpending,
     } as WebsocketsEvents.EMITTED.CALL_CALCULATE_YEARLY_SAVINGS_PAYLOAD);
