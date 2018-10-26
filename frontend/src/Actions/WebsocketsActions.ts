@@ -13,6 +13,9 @@ import { BenefitsActionTypes, WebsocketsEvents } from '../Types';
 const receive = (store: Store) => {
   socket.on(WebsocketsEvents.RECEIVED.YEARLY_SAVINGS,
             (payload: WebsocketsEvents.RECEIVED.YEARLY_SAVINGS_PAYLOAD) => {
+
+              
+
               return store.dispatch(
                 {
                   type: BenefitsActionTypes.SET_YEARLY_BENEFIT,

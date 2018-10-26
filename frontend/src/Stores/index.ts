@@ -1,12 +1,12 @@
 import { createStore } from 'redux';
 import { benefitsReducer, State } from '../Reducers';
-import { initWebsocketActions } from '../Actions';
+import { initActions } from '../Actions';
 
 const initialState: State = {
   yearlySavings: 0,
 };
 
 const store = createStore(benefitsReducer, initialState);
-initWebsocketActions(store);
+initActions(store);
 
 export { store };
