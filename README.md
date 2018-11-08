@@ -51,7 +51,7 @@ I'm im the process of doing it but it still will require some time.
 
 1. Clone the repository
 
-	`$ git clone git@github.com:limiaspasdaniel/YearlyBenefitsCalculator.git`
+	`$ git clone git@github.com:limiaspasdaniel/BenefitsCalculator.git`
 
 2. Navigate to the repository root and run:
 
